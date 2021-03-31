@@ -56,11 +56,11 @@ public class BKView: UIView {
     
     private func setup() {
         backgroundColor = UIColor.link
-        layer.shadowColor = UIColor.link.withAlphaComponent(0.4).cgColor
+        layer.shadowColor = UIColor.black.cgColor
         
         layer.cornerCurve = .continuous
         
-        layer.cornerRadius = 25
+        layer.cornerRadius = 15
         layer.shadowOffset = CGSize(width: 0, height: 3)
         layer.shadowRadius = 5
         layer.shadowOpacity = 1
